@@ -1,0 +1,33 @@
+
+
+/* BARRA DE NAVEGACION  */
+
+.navbar-nav
+{
+margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+/* PROYECTOS SECCION */
+
+
+.proyectos
+{
+    
+    background-color: orange;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10%;
+    display: flex;
+}
+.tarjetas
+{
+    max-width: 25%;
+    height: auto;
+    margin: 0 auto;
+    padding: .5%;
+}
+
