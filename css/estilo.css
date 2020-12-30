@@ -1,5 +1,21 @@
 
 
+
+*
+´{
+    padding: 0;
+    margin: 0;
+}
+
+.pleca
+
+{
+    max-width: 100%;
+    height: auto;
+    padding: 2.5%;
+    background-color: royalblue;
+}
+
 /* BARRA DE NAVEGACION  */
 
 .navbar-nav
@@ -9,6 +25,89 @@ margin: 0 auto;
     
 }
 
+
+/* INICIO SECCION */
+
+.inicio
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 30%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: gray;
+}
+
+/* ACERCA SECCION */
+
+.acerca
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: brown;
+    display: flex;
+}
+
+.acc
+{
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    background-color: lightcoral;
+    text-align: left;
+}
+.ac
+{
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    background-color: lightcoral;
+    text-align: left;
+}
+
+/* HABILIDADES SECCION */
+
+.habilidad
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: forestgreen;
+    display: flex;
+}
+
+.hab
+{
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    background-color: lightcoral;
+    text-align: left;
+}
+.habb
+{
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.5%;
+    background-color: lightcoral;
+    text-align: left;
+}
 
 /* PROYECTOS SECCION */
 
