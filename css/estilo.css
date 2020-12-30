@@ -77,6 +77,19 @@ margin: 0 auto;
 
 /* HABILIDADES SECCION */
 
+.list-inline-item
+{
+    padding: 2%;
+background-color: gray;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: solid 2px white;
+    text-align: center;
+    justify-content: center;
+}
+
 .habilidad
 {
     max-width: 100%;
@@ -90,24 +103,36 @@ margin: 0 auto;
 
 .hab
 {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 3.5%;
-    background-color: lightcoral;
+    padding: 3%;
+    background-color: dimgray;
     text-align: left;
 }
 .habb
 {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 3.5%;
+    padding: 3%;
     background-color: lightcoral;
     text-align: left;
 }
+
+.barras
+{
+        max-width: 100%;
+    height: auto;
+    margin: 1% auto;
+    box-sizing: border-box;
+    padding: 1.5%;
+    background-color: ;
+    display: flex;
+}
+
 
 /* PROYECTOS SECCION */
 
