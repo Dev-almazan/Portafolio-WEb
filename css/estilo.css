@@ -2,19 +2,41 @@
 
 
 *
-´{
+{
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  
 }
 
-.pleca
-
+.img 
 {
     max-width: 100%;
     height: auto;
-    padding: 2.5%;
-    background-color: royalblue;
+    margin: 0 auto;
+    padding: 1%;
 }
+.pleca
+
+{
+    max-width: 75%;
+    height: auto;
+    padding: 2.5%;
+       background-color: #2b303c !important;
+   display: none;
+    
+}
+.plecai
+
+{
+    max-width: 25%;
+    height: auto;
+    padding: 2.5%;
+       background-color: #2b303c !important;
+  display: none;
+    margin-left:auto;
+}
+
 
 /* BARRA DE NAVEGACION  */
 
@@ -26,6 +48,7 @@ margin: 0 auto;
 }
 
 
+
 /* INICIO SECCION */
 
 .inicio
@@ -34,13 +57,37 @@ margin: 0 auto;
     height: auto;
     margin: 0 auto;
     box-sizing: border-box;
-    padding-top: 30%;
-    padding-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: gray;
+padding-top: 6%;
+  background-image: url(fondo.jfif);
+    display: flex;
+    color: whitesmoke;
+    background-attachment: fixed;
+    background-position:left;
 }
 
+.inc
+{
+    
+  max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding:3%;
+backface-visibility: hidden;
+  
+}
+.incc
+{
+    
+  max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+    padding-top: 27%;
+backface-visibility: hidden;
+  
+}
 /* ACERCA SECCION */
 
 .acerca
@@ -50,7 +97,7 @@ margin: 0 auto;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 5%;
-    background-color: brown;
+    background-color: #2b303c;
     display: flex;
 }
 
@@ -61,8 +108,9 @@ margin: 0 auto;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 3.5%;
-    background-color: lightcoral;
+    background-color: #2b303c;
     text-align: left;
+   
 }
 .ac
 {
@@ -71,16 +119,17 @@ margin: 0 auto;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 3.5%;
-    background-color: lightcoral;
+    background-color: #2b303c;
     text-align: left;
+ color: whitesmoke;    
 }
 
 /* HABILIDADES SECCION */
 
-.list-inline-item
+.list-inline-items
 {
     padding: 2%;
-background-color: gray;
+background-color: whitesmoke;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
@@ -97,7 +146,7 @@ background-color: gray;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 5%;
-    background-color: forestgreen;
+    background-color: whitesmoke;
     display: flex;
 }
 
@@ -110,6 +159,7 @@ background-color: gray;
     padding: 3%;
     background-color: dimgray;
     text-align: left;
+      color: whitesmoke;
 }
 .habb
 {
@@ -118,8 +168,9 @@ background-color: gray;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 3%;
-    background-color: lightcoral;
+    background-color: #2b303c !important;
     text-align: left;
+    color: whitesmoke;
 }
 
 .barras
@@ -140,18 +191,63 @@ background-color: gray;
 .proyectos
 {
     
-    background-color: orange;
+    background-color: #2b303c !important;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 5%;
     display: flex;
 }
 .tarjetas
 {
-    max-width: 25%;
+    max-width: 30%;
     height: auto;
     margin: 0 auto;
     padding: .5%;
 }
 
+.card
+{
+    max-width: 100%;
+    width: 750px;
+    max-height: 100%;
+    
+}
+
+/* CONTACTO SECCION */
+.contacto
+{
+    
+    background-color: #2b303c !important;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    display: flex;
+}
+.funo
+{
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+      background-color: whitesmoke!important;
+    text-align: left;
+}
+.fdos
+{
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3%;
+      background-color: #2b303c !important;
+    text-align: left;
+}
