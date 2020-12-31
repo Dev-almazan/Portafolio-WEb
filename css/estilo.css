@@ -9,6 +9,16 @@
   
 }
 
+.oculto
+{
+    display: none;
+}
+.fondo
+
+{
+    max-width: 90%;
+    margin: 0 auto;
+}
 .img 
 {
     max-width: 100%;
@@ -47,7 +57,14 @@ margin: 0 auto;
     
 }
 
-
+.fixed-header {
+  top: 0;
+  left: 0;
+  right: 0;
+    z-index:100000;
+    max-width: 90%;
+    margin: 0 auto;
+}
 
 /* INICIO SECCION */
 
@@ -57,12 +74,11 @@ margin: 0 auto;
     height: auto;
     margin: 0 auto;
     box-sizing: border-box;
-padding-top: 6%;
-  background-image: url(fondo.jfif);
+padding-top: 4%;
+ background-color: whitesmoke;
     display: flex;
-    color: whitesmoke;
-    background-attachment: fixed;
-    background-position:left;
+    color: black;
+ padding-bottom: 6%;
 }
 
 .inc
