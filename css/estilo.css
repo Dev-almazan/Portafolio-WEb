@@ -18,6 +18,14 @@
 {
     max-width: 90%;
     margin: 0 auto;
+  
+}
+.fondos
+{
+    background-image: url(pixel.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    
 }
 .img 
 {
@@ -32,7 +40,7 @@
     max-width: 75%;
     height: auto;
     padding: 2.5%;
-       background-color: #2b303c !important;
+
    display: none;
     
 }
@@ -52,8 +60,16 @@
 
 .navbar-nav
 {
-margin: 0 auto;
+margin-left: 0 auto;
     text-align: center;
+    opacity: .9;
+    color: whitesmoke;
+}
+
+.navbar-right
+{
+margin-left:  auto;
+    text-align: right;
     
 }
 
@@ -75,7 +91,9 @@ margin: 0 auto;
     margin: 0 auto;
     box-sizing: border-box;
 padding-top: 4%;
- background-color: whitesmoke;
+background-image: url(fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
     color: black;
  padding-bottom: 6%;
