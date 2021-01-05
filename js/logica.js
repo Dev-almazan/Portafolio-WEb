@@ -15,9 +15,9 @@ acerca.addEventListener("mousemove",() =>
 // AL REGRESAR AL INICIO 
 var inicio = document.getElementById("inicio");
 // DEVOLVER EL SCROLL Y ANULAR EL FIXE TOP PARA QUE QUEDE ESTATICA
-inicio.addEventListener("mousemove",() =>
+inicio.addEventListener("mouse",() =>
 {
-   document.getElementById("barra").style.position = "";
+   document.getElementById("barra").style.display = "none";
   
 }
                        
