@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="es-mx">
   <head>
+      <meta name="description" content="Bienvenido a Ernest Site  Desarrollo Web Programacion y más..">
+  <meta name="keywords" content="progrmacion desarrollo web diseño web">
+  <meta name="author" content="Ernesto Almazan Resendiz">
+        <title>Ernesto Almazan Portafolio Web</title>
+        <link rel="icon" type="image/x-icon" href="img/icon.PNG" />
     <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -11,11 +16,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
     />
+     <link rel="stylesheet" href="css/libs/animate.css">
+  <link rel="stylesheet" href="css/site.css"> 
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="css/estilo.css" /> 
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
   </head>
   <body class="fondos bg-dark">
       <div class="fondo">
@@ -27,14 +39,14 @@
       <div class="incc">
           
          
-          <h1 class="titulo">DESARROLLADOR WEB</h1>
-           <h2 class="tsec">ERNESTO ALMAZAN RESENDIZ</h2><br><a href="#portafolio">
-          <button type="button" class="btn btn-primary btn-rounded" >VER PORTAFOLIO WEB</button></a>
+          <h1 class="titulo wow fadeIn" data-wow-delay="1s">DESARROLLADOR WEB</h1>
+           <h2 class="tsec wow fadeIn" data-wow-delay="2s">ERNESTO ALMAZAN RESENDIZ</h2><br><a href="#portafolio">
+          <button type="button" class="btn btn-primary btn-rounded wow bounceIn"data-wow-delay="3s" >VER PORTAFOLIO WEB</button></a>
           </div>
       
       
       <div class="inc">
-          <img src="img/principal.png" width="400px" class="img">
+          <img src="img/principal.png" width="400px" class="img wow slideInRight" data-wow-delay="3s">
           
           </div>
       
@@ -47,7 +59,7 @@
       
 <div class="pleca"></div>
       
-          <nav class="navbar  navbar-expand-lg  scrolling fixed-header container-fluid" id="barra">
+          <nav class="navbar  navbar-expand-lg  scrolling fixed-header container-fluid  wow slideInLeft"  id="barra">
   <div class="container-fluid">
     <button
       class="navbar-toggler"
@@ -90,7 +102,7 @@
 <section class="acerca" id="acerca">
       
       
-    <div class="ac">
+    <div class="ac wow slideInLeft" >
         <h2 class="naranja">SOBRE MI</h2>
         <h6>Hola comunidad Web!</h6><hr>
 <p>
@@ -108,7 +120,7 @@ Mi nombre es Ernesto, me apasiona el <span class="naranja">desarrollo Web,</span
     
     </div>
       
-       <div class="acc">
+       <div class="acc wow slideInRight">
            <center>
            <img  src="img/animado.gif" width="350px" class="img">
             </center>   
@@ -133,7 +145,7 @@ Mi nombre es Ernesto, me apasiona el <span class="naranja">desarrollo Web,</span
       </section>      
       
    <div class="plecai"></div>   
-         <div class="container" id="habilidades">
+         <div class="container wow fadeIn" id="habilidades">
           <h1>HABILIDADES</h1>
           <P class="text-white">Estos son algunos lenguajes que utilizo para desarrollar sitiosy aplicaones web.
           </P>
@@ -143,7 +155,7 @@ Mi nombre es Ernesto, me apasiona el <span class="naranja">desarrollo Web,</span
     
       <section class="habilidad">
           
-                 <div class="hab">
+                 <div class="hab wow slideInRight">
           
          <h2>FRONT END</h2>
 <p >Estas son algunas tecnologías que utilizo para desarrollador el front end, añadiendo diseño responsivo, maquetación web, semántica web, efectos y diseño del interfaz web adicional a operaciones del lado del cliente.  </p>
@@ -212,7 +224,7 @@ Mi nombre es Ernesto, me apasiona el <span class="naranja">desarrollo Web,</span
                       </div>
             
    
-         <div class="habb">
+         <div class="habb wow slideInLeft">
           
          <h2>BACK END</h2>
 <p>En caso del Back end utilizo el lenguaje PHP para darle la lógica y funcionalidad del lado del servidor, así como MYSQL para la creación de base datos y manipulación de información.
@@ -286,7 +298,7 @@ Utilizo la herramienta GIT para el desarrollo de proyectos en equipo .</p>
 
       <div class="pleca"></div>   
       
-      <div class="container" id="portafolio">
+      <div class="container wow fadeIn" id="portafolio">
           <h1>PORTAFOLIO</h1>
           <P class="text-white">Estos son algunos proyectos personales y profesionales que he desarrollado desde cero.
           </P>
@@ -314,7 +326,7 @@ Utilizo la herramienta GIT para el desarrollo de proyectos en equipo .</p>
   <div class="carousel-inner">
     <!-- Single item -->
     <div class="carousel-item active">
-  <section class="proyectos">   
+  <section class="proyectos wow fadeInUp">   
           <div class="tarjetas">
 <div class="card" > 
   <img src="img/simulador.PNG" class="card-img-top" width="600px">
@@ -370,7 +382,7 @@ Utilizo la herramienta GIT para el desarrollo de proyectos en equipo .</p>
 
     <!-- Single item dos  -->
     <div class="carousel-item">
-  <section class="proyectos">   
+  <section class="proyectos wow fadeInUp">   
           <div class="tarjetas">
 <div class="card" > 
   <img src="img/sistema.PNG" class="card-img-top" width="600px">
@@ -455,7 +467,7 @@ Utilizo la herramienta GIT para el desarrollo de proyectos en equipo .</p>
       
       <section class="contacto" id="contacto">
       
-      <div class="funo">
+      <div class="funo wow fadeInLeft">
           <form >
               <h2>CONTACTO</h2>
               <P>Envíame un mensaje, te responderé a la brevedad posible.</P>
@@ -514,7 +526,7 @@ Utilizo la herramienta GIT para el desarrollo de proyectos en equipo .</p>
           
           </div>
           
-      <div class="fdos"></div>
+      <div class="fdos wow fadeInRight"></div>
       
           <img src="img/principal.png" width="500px" class="img">
       
@@ -522,12 +534,12 @@ Utilizo la herramienta GIT para el desarrollo de proyectos en equipo .</p>
       
       <!-- FOOTER -->
   <footer class="container"  style="padding: .5%;">
-    <p>&copy; Desarrollado en 2020 por Dev Almazan. &middot; </p>
+    <p class="text-center text-white">&copy; Desarrollado en 2020 por Dev Almazan &middot; </p>
   </footer>
 </div>
   </body>
 
-
+<script src="dist/wow.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -538,4 +550,21 @@ Utilizo la herramienta GIT para el desarrollo de proyectos en equipo .</p>
    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <script type="text/javascript" src="js/logica.js"></script>    
+        <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
 </html>

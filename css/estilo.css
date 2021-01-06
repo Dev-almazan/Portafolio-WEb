@@ -645,7 +645,7 @@ color: whitesmoke;
     background-color: #2b303c !important;
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 5% auto;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 1%;
@@ -659,9 +659,13 @@ color: whitesmoke;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 3%;
-      background-color: whitesmoke!important;
+      background-color: #2b303c !important;
     text-align: left;
+    color:white;
 }
+    input{
+        color: white;
+    }
 .fdos
 {
     max-width: 100%;
