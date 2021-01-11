@@ -1,3 +1,52 @@
+<? php
+
+
+if (empty($_POST))
+{
+  $display = "none";
+}
+    else 
+    {
+
+      
+      $ email_to = "ernest_almazan@outlook.com" ;
+      $ email_subject = "Este mensaje proviene del sitio web" ;
+      
+      $ email_message = "Formulario: \ n \ n" ;
+      $ email_message . = "Nombre:" . $ _POST [ 'Nombre' ]. "\ n" ;
+      $ email_message . = "Apellido:" . $ _POST [ 'Apellidos' ]. "\ n" ;
+      $ email_message . = "Correo:" . $ _POST [ 'Correo' ]. "\ n" ;      
+      $ email_message . = "Mensaje:" . $ _POST [ 'Mensaje' ]. "\ n \ n" ;
+      
+      
+      // Se envía el correo electrónico usando la función mail () de PHP
+      $ encabezados = 'De:' . $ _POST [ 'Correo' ]. "\ r \ n" .
+          'Responder a:' . $ _POST [ 'Correo' ]. "\ r \ n" .
+          'X-Mailer: PHP /' . phpversion ();
+      mail ( $ email_to , $ email_subject , $ email_message , $ encabezados );
+      
+      if (mail)
+      {
+    
+      $mensaje = "El mensaje se ha enviado";
+      $color ="success";
+      $display = "block";
+      }
+
+
+      }
+      
+
+
+
+    }
+
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="es-mx">
   <head>
@@ -38,6 +87,12 @@
           <h1 class="titulo wow fadeIn" data-wow-delay="1s">DESARROLLADOR WEB</h1><hr>
            <h2 class=" wow fadeIn text-primary" data-wow-delay="2s">ERNESTO ALMAZAN RESENDIZ</h2><br><a href="#portafolio">
           <button type="button" class="btn btn-primary btn-rounded wow bounceIn"data-wow-delay="3s" >VER PORTAFOLIO WEB</button></a>
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
           </div>
       
       
